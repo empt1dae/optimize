@@ -7,16 +7,12 @@
 
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="css.css">
-	<link rel="stylesheet" href="header/header.css">
-	<link rel="stylesheet" href="footer/footer.css">
-	
 
 
 	<title>Lustre</title>
 </head>
 
 <body>
-	<div id="header"></div>
 
 	<main>
 		<section>
@@ -364,25 +360,11 @@
 
 	</form>
 
-	
+	<footer>
+		<nav>
 
-	<div id="footer"></div>
-
-	<script>
-        // Функция для загрузки и вставки содержимого из внешнего файла
-        function loadHTML(elementId, filePath) {
-            fetch(filePath)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                })
-                .catch(error => console.error('Ошибка загрузки файла:', error));
-        }
-
-        // Загружаем header и footer с указанием правильных путей
-        loadHTML('header', 'header/header.html');  // Путь к header.html
-        loadHTML('footer', 'footer/footer.html');  // Путь к footer.html
-    </script>
+		</nav>
+	</footer>
 </body>
 
 </html>

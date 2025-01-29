@@ -1,0 +1,82 @@
+/* ОБЩЕЕ */
+body {
+	background: linear-gradient(rgba(219, 219, 255, 1) 20%, rgba(140, 127, 204, 1) 80%);
+	background-repeat: no-repeat;
+}
+
+h3 {
+	color: rgb(255, 255, 255);
+	font-family: Kudry;
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-align: left;
+	text-transform: uppercase;
+	width: fit-content;
+	height: fit-content;
+}
+
+p {
+	color: rgb(255, 255, 255);
+	font-family: Geist;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 4px;
+	text-align: justify;
+}
+
+a {
+	color: rgb(255, 255, 255);
+}
+
+ul {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+
+
+
+
+/* FOOTER */
+.container_footer {
+	width: 100%;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_nav {
+	align-self: center;
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+.cont_h3{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.icons {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.logo {
+	margin-top: 50px;
+}
+
+#right{
+	text-align: right;
+	opacity: 80%;
+}
