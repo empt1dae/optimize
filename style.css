@@ -457,20 +457,16 @@ button:hover {
 
 /* СТИЛИЗАЦИЯ FOOTER */
 #footer {
+	background: linear-gradient(rgba(219, 219, 255, 1) 15%, rgba(140, 127, 204, 1) 85%);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-}
-
-#footer {
-	background: linear-gradient(rgba(219, 219, 255, 1) 15%, rgba(140, 127, 204, 1) 85%);
 }
 
 .footer_nav {
 	padding: 0 var(--gap_1);
 	display: flex;
 	flex-direction: row;
-	padding-top: 50px;
 	align-self: center;
 	column-gap: 90px;
 }
