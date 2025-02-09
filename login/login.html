@@ -4,28 +4,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="https://quisdy.github.io/optimization2/">
 
-	<link rel="stylesheet" href="../style.css">
-	<link rel="stylesheet" href="login_registration.css">
-	<link rel="stylesheet" href="../header_footer/header_footer.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="login/login_registration.css">
+	<link rel="stylesheet" href="header_footer/header_footer.css">
 	<title>Login</title>
 </head>
 
 <body>
-	<header>
-		<div id="header">
-		</div>
-	</header>
+	<header id="header"></header>
 
 	<main>
 		<section>
 			<div class="form" id="gap_section">
 				<div class="container_h1_" id="gap_1">
-					<img src="./img/star.svg" alt="" class="lustre">
+					<img src="img/star.svg" alt="" class="lustre">
 					<h1>
 						вход
 					</h1>
-					<img src="./img/star.svg" alt="" class="lustre">
+					<img src="img/star.svg" alt="" class="lustre">
 				</div>
 
 				<div class="form_down">
@@ -36,7 +34,7 @@
 								<input type="email" id="email" required placeholder="E-mail">
 								<input type="password" id="password" required placeholder="Введите пароль">
 
-								<a href="./catalog/catalog.html" id="form_bot">
+								<a href="catalog/catalog.html" id="form_bot">
 									<button type="submit">
 										<h4>
 											войти
@@ -51,32 +49,15 @@
 							</form>
 						</div>
 					</div>
-					<img src="./img/stars.svg" id="stars_reg" alt="">
+					<img src="img/stars.svg" id="stars_reg" alt="">
 				</div>
 			</div>
 		</section>
 	</main>
 
-	<footer>
-		<div id="footer">
-		</div>
-	</footer>
+	<footer id="footer"></footer>
 
-	<script>
-		// Функция для загрузки и вставки содержимого из внешнего файла
-		function loadHTML(elementId, filePath) {
-			fetch(filePath)
-				.then(response => response.text())
-				.then(data => {
-					document.getElementById(elementId).innerHTML = data;
-				})
-				.catch(error => console.error('Ошибка загрузки файла:', error));
-		}
-
-		// Загружаем header и footer с указанием правильных путей
-		loadHTML('header', '/header_footer/header.html');  // Путь к header.html
-		loadHTML('footer', '/header_footer/footer.html');  // Путь к footer.html
-	</script>
+	<script src="script.js"></script>
 </body>
 
 </html>

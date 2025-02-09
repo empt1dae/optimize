@@ -4,25 +4,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="https://quisdy.github.io/optimization2/">
 
-	<link rel="stylesheet" href="../style.css">
-	<link rel="stylesheet" href="./catalog.css">
-	<link rel="stylesheet" href="../header_footer/header_footer.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="catalog/catalog.css">
+	<link rel="stylesheet" href="header_footer/header_footer.css">
 	<title>Rings</title>
 </head>
 
 <body>
-
-	<header>
-		<div id="header">
-		</div>
-	</header>
+	<header id="header"></header>
 
 	<section>
 		<div class="section_for_items" id="gap_section">
 			<div class="container_h1">
 				<div class="container_h1_" id="gap_1">
-					<img src="./img/lus.svg" alt="" class="lustre">
+					<img src="img/lus.svg" alt="" class="lustre">
 					<h1>
 						все
 					</h1>
@@ -31,14 +28,14 @@
 					<h1>
 						Кольца
 					</h1>
-					<img src="./img/tre.svg" alt="" class="lustre">
+					<img src="img/tre.svg" alt="" class="lustre">
 				</div>
 			</div>
 
 			<div class="collection_items">
 
 				<div class="item" id="it1">
-					<img src="./img/new/new_new1.png" alt="" id="item_photo">
+					<img src="img/new/new_new1.png" alt="" id="item_photo">
 					<div class="item_info">
 
 						<p class="name_item_font">
@@ -59,7 +56,7 @@
 				</div>
 
 				<div class="item" id="it2">
-					<img src="./img/new/new_new3.png" alt="" id="item_photo">
+					<img src="img/new/new_new3.png" alt="" id="item_photo">
 					<div class="item_info">
 						<p class="name_item_font">
 							Кольцо "Венок"
@@ -79,7 +76,7 @@
 				</div>
 
 				<div class="item" id="it3">
-					<img src="./img/new/new_new52.png" alt="" id="item_photo">
+					<img src="img/new/new_new52.png" alt="" id="item_photo">
 					<div class="item_info">
 						<p class="name_item_font">
 							Кольцо "Жемчуг"
@@ -101,26 +98,10 @@
 		</div>
 	</section>
 
-	<footer>
-		<div id="footer">
-		</div>
-	</footer>
+	
+	<footer id="footer"></footer>
 
-	<script>
-		// Функция для загрузки и вставки содержимого из внешнего файла
-		function loadHTML(elementId, filePath) {
-			fetch(filePath)
-				.then(response => response.text())
-				.then(data => {
-					document.getElementById(elementId).innerHTML = data;
-				})
-				.catch(error => console.error('Ошибка загрузки файла:', error));
-		}
-
-		// Загружаем header и footer с указанием правильных путей
-		loadHTML('header', './header_footer/header.html');  // Путь к header.html
-		loadHTML('footer', './header_footer/footer.html');  // Путь к footer.html
-	</script>
+	<script src="script.js"></script>
 </body>
 
 </html>

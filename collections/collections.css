@@ -13,10 +13,6 @@ body {
 	--gap_section: 100px;
 }
 
-.lustre {
-	height: 90px;
-}
-
 .section_collections {
 	display: flex;
 	flex-direction: column;

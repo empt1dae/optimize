@@ -47,11 +47,6 @@ body {
 .section_new_collection {
 	display: flex;
 	flex-direction: column;
-	row-gap: 50px;
-}
-
-.lustre {
-	height: 90px;
 }
 
 .section_new_collection_items {

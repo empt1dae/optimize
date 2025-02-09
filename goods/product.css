@@ -1,0 +1,41 @@
+/* ПЕРЕМЕННЫЕ */
+:root {
+	--accent-color: #8C7FCC;
+	--accent-color-light: #c8c8ff;
+	--text-color: #383838;
+	--text-color-white: #FBFBFF;
+	--gap_1: 150px;
+	--gap_2: 250px;
+	--gap_section: 100px;
+}
+
+.section_product {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr 1.5fr;
+	grid-template-rows: 2fr;
+	grid-template-areas: "ga_pr1 ga_pr2 ga_pr3"
+		"ga_pr1 ga_pr2 ga_pr3"
+		"ga_pr1 ga_pr2 ga_pr3";
+		justify-items: center;
+}
+
+#ga_pr1 {
+	grid-area: ga_pr1;
+}
+
+#ga_pr2 {
+	grid-area: ga_pr2;
+}
+
+#ga_pr3 {
+	grid-area: ga_pr3;
+}
+
+.section_product_info {
+	width: 100%;
+	background-color: var(--accent-color-light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
