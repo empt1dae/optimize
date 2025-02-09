@@ -370,17 +370,7 @@ button:hover {
 
 
 /* СТИЛИЗАЦИЯ HEADER */
-:root {
-	--accent-color: #8C7FCC;
-	--accent-color-light: #c8c8ff;
-	--text-color: #383838;
-	--text-color-white: #FBFBFF;
-	--gap_1: 150px;
-	--gap_2: 250px;
-	--gap_section: 100px;
-}
-
-.menu_header {
+#header {
 	position: fixed;
 	width: 100vw;
 	height: 8vh;
@@ -389,6 +379,17 @@ button:hover {
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
+}
+
+.container_menu {
+	background-color: var(--text-color-white);
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding: 10px 0;
 }
 
 #menu_font {
@@ -409,17 +410,6 @@ button:hover {
 	text-transform: uppercase;
 }
 
-.container_menu {
-	background-color: var(--text-color-white);
-	width: 95%;
-	align-self: center;
-	display: flex;
-	flex-direction: row;
-	border-bottom-right-radius: 40px;
-	border-bottom-left-radius: 40px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
 .menu_right_left {
 	display: flex;
@@ -462,8 +452,11 @@ button:hover {
 	width: 30px;
 }
 
+
+
+
 /* СТИЛИЗАЦИЯ FOOTER */
-.container_footer {
+#footer {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
