@@ -17,27 +17,31 @@ body {
 }
 
 @font-face {
-	font-family: "Geist";
-	font-weight: 800;
-	src: url("fonts/Geist-Black.woff2") format("woff2");
+	font-family: 'Geist Black';
+	src: url('fonts/Geist-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "Geist";
-	font-weight: 400;
-	src: url("fonts/Geist-Regular.woff2") format("woff2");
+	font-family: 'Geist Regular';
+	src: url('fonts/Geist-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "Geist";
-	font-weight: 500;
-	src: url("fonts/Geist-SemiBold.woff2") format("woff2");
+	font-family: 'Geist SemiBold';
+	src: url('fonts/Geist-SemBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "Kudry";
-	font-weight: 300;
-	src: url("fonts/kudry.otf") format("otf");
+	font-family: 'Kudry';
+	src: url('fonts/kudry.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* ПЕРЕМЕННЫЕ */
