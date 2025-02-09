@@ -8,5 +8,5 @@ function loadHTML(elementId, filePath) {
 }
 
 // Загружаем header и footer с абсолютными путями
-loadHTML('header', './header_footer/header.html');
-loadHTML('footer', './header_footer/footer.html');
+loadHTML('header', './header.html');
+loadHTML('footer', './footer.html');
