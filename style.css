@@ -135,7 +135,7 @@ h1 {
 /* название новых коллекций и утп  */
 h2 {
 	color: var(--text-color);
-	font-family: Kudry;
+	font-family: "Kudry";
 	font-size: 8rem;
 	font-weight: 300;
 	line-height: 7rem;
@@ -165,7 +165,7 @@ h2 {
 /* услуги, каталог */
 h3 {
 	color: var(--text-color);
-	font-family: Kudry;
+	font-family: "Kudry";
 	font-size: 4.8rem;
 	font-weight: 300;
 	line-height: 4.8rem;
@@ -179,7 +179,7 @@ h3 {
 /* для кнопок */
 h4 {
 	color: var(--text-color-white);
-	font-family: Geist;
+	font-family: "Geist";
 	font-size: 1.6rem;
 	font-weight: 800;
 	line-height: 1.6rem;
@@ -192,7 +192,7 @@ h4 {
 
 p {
 	color: var(--text-color);
-	font-family: Geist;
+	font-family: "Geist";
 	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 2rem;
@@ -242,7 +242,7 @@ input:active {
 
 ::placeholder {
 	color: var(--accent-color-light);
-	font-family: Geist;
+	font-family: "Geist";
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 15px;
