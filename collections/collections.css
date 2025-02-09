@@ -59,8 +59,8 @@ body {
 .collection_items {
 	padding: 0px var(--gap_2);
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(0.5fr, 1fr));
-	grid-template-rows: repeat(auto-fit, minmax(2fr, 2.5fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(500px, 2.5fr));
 	grid-column-gap: 2vw;
 	grid-row-gap: 2vh;
 }
