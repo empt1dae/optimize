@@ -81,7 +81,6 @@ body {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
 		grid-template-rows: auto-fill;
-	grid-template-areas: "it1 it2 it3 it4 it5";
 	grid-column-gap: 2vw;
 	grid-row-gap: 2vh;
 }
