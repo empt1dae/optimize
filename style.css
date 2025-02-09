@@ -107,7 +107,7 @@ p {
 /* заголовки секций */
 h1 {
 	color: var(--accent-color);
-	font-family: Geist;
+	font-family: "Geist";
 	font-size: 11rem;
 	font-weight: 500;
 	line-height: 11rem;
