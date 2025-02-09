@@ -56,28 +56,8 @@ body {
 	width: 250px;
 }
 
-#it1 {
-	grid-area: it1;
-}
-
-#it2 {
-	grid-area: it2;
-}
-
-#it3 {
-	grid-area: it3;
-}
-
-#it4 {
-	grid-area: it4;
-}
-
-#it5 {
-	grid-area: it5;
-}
-
 .collection_items {
-	padding: 300px var(--gap_2);
+	padding: 0px var(--gap_2);
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
 	grid-template-rows: repeat(auto-fit, minmax(500px, 600px));
